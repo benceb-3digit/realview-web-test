@@ -11,6 +11,9 @@ body {
   font-family: sans-serif;
   overflow-y: scroll;
 }
+.section-header-mobile {
+  display: none;
+}
 .unselectable {
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
@@ -175,6 +178,16 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+  .section-header-mobile {
+    display: flex;
+    width: 100vw;
+    height: 31vw;
+    background-image: url('icons/mobile_header.jpg');
+    background-size: contain;
+  }
+  .section-header {
+    display: none;
+  }
   iframe {
     transform: scale(1) translateX(-50%);
     transform-origin: center;
