@@ -160,7 +160,7 @@ iframe {
   transform: translateX(-50%);
 }
 
-@media screen and (max-width: 1400px) and (-webkit-device-pixel-ratio: 1) {
+@media only screen and (max-width: 1400px) and (-webkit-max-device-pixel-ratio: 1), only screen and (max-width: 1400px) and (max-device-pixel-ratio: 1) {
   iframe {
     transform: scale(0.85) translateX(-50%);
     transform-origin: center;
