@@ -162,6 +162,16 @@ iframe {
   left: 50%;
   transform: translateX(-50%);
 }
+.iframe-wrapper {
+  position: relative;
+}
+.menu-bar {
+  position: absolute;
+  top: 0;
+  height: 74px;
+  width: 100vw;
+  background-color: rgb(249, 246, 242);
+}
 
 @media only screen and (max-width: 1400px) and (-webkit-max-device-pixel-ratio: 1), only screen and (max-width: 1400px) and (max-device-pixel-ratio: 1) {
   iframe {
@@ -176,6 +186,9 @@ iframe {
     width: 100vw;
     aspect-ratio: 16/9;
     height: unset;
+  }
+  .menu-bar {
+    height: 64px;
   }
 }
 
