@@ -162,6 +162,9 @@ iframe {
   left: 50%;
   transform: translateX(-50%);
 }
+.iframe-wfc {
+  width: 100vw;
+}
 .iframe-wrapper {
   position: relative;
 }
