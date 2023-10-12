@@ -172,6 +172,10 @@ iframe {
   width: 100vw;
   background-color: rgb(249, 246, 242);
 }
+.menu-bar-wfc {
+  height: 128px;
+  background-color: #0F3357;
+}
 
 @media only screen and (max-width: 1400px) and (-webkit-max-device-pixel-ratio: 1), only screen and (max-width: 1400px) and (max-device-pixel-ratio: 1) {
   iframe {
