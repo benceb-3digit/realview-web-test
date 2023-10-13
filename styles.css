@@ -168,9 +168,9 @@ iframe {
 .menu-bar {
   position: absolute;
   top: 0;
-  height: 74px;
+  height: 128px;
   width: 100vw;
-  background-color: rgb(249, 246, 242);
+  background-color: #769e98;
 }
 .menu-bar-wfc {
   height: 128px;
